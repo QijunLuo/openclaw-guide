@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw 一键安装</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
+  font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center;
+}
+.container {
+  max-width: 500px; padding: 48px 32px;
+}
+.emoji { font-size: 80px; margin-bottom: 16px; }
+h1 { font-size: 32px; font-weight: 700; color: #e94560; margin-bottom: 8px; }
+.sub { font-size: 16px; color: #aaa; margin-bottom: 32px; line-height: 1.6; }
+.features {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 32px;
+}
+.feat {
+  background: rgba(255,255,255,0.08);
+  padding: 6px 16px; border-radius: 20px;
+  font-size: 13px; color: #aaa;
+}
+.btn {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  font-size: 18px; font-weight: 700;
+  padding: 14px 48px; border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 24px;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(233,69,96,0.4);
+}
+.version { font-size: 13px; color: #666; }
+.footer { margin-top: 48px; font-size: 12px; color: #444; }
+.footer a { color: #555; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="emoji">🦞</div>
+  <h1>OpenClaw 一键安装器</h1>
+  <p class="sub">
+    下载 → 双击 → 输入 API Key → 完成<br>
+    不用配环境，不用敲命令
+  </p>
+
+  <div class="features">
+    <span class="feat">✅ Node.js 自动安装</span>
+    <span class="feat">✅ OpenClaw 自动安装</span>
+    <span class="feat">✅ 配置自动生成</span>
+    <span class="feat">✅ 守护进程</span>
+    <span class="feat">✅ 桌面快捷方式</span>
+  </div>
+
+  <a class="btn" href="https://github.com/QijunLuo/openclaw-guide/releases/latest/download/OpenClaw.exe">
+    👇 下载 Windows 版
+  </a>
+
+  <p class="version">v1.0.1 · 11.5 MB · Windows 10/11</p>
+
+  <div class="footer">
+    <a href="https://github.com/QijunLuo/openclaw-guide">GitHub 仓库</a>
+    ·
+    <a href="https://docs.openclaw.ai">官方文档</a>
+  </div>
+</div>
+
+</body>
+</html>
